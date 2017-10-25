@@ -1,0 +1,109 @@
+
+html {
+  background-color: #212121;
+}
+h1 {
+  color: white;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+#bio {
+  color: white;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+#landingimage {
+  max-width: 100%;
+  max-height: 100%;
+}
+.card {
+  max-width: 100%;
+  max-height: 100%;
+}
+#conquerlogo {
+  height: 100%;
+  -webkit-filter: brightness(100%);
+}
+#conquerlogo:hover {
+  -webkit-filter: brightness(50%);
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  transition: all .25s ease;
+}
+nav {
+  height: 150px;
+
+}
+.footersocial {
+  margin-right: 20px;
+}
+nav ul a {
+  color: #ffffff;
+  font-family: 'Cutive Mono', monospace;
+  font-size: 20px;
+  font-weight: bolder;
+  margin-top: 30px;
+  margin-right: 20px;
+  -webkit-filter: brightness(100%);
+}
+nav ul a:hover {
+  -webkit-filter: brightness(50%);
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  transition: all .25s ease;
+}
+.side-nav {
+  color: #ffffff;
+  font-family: 'Cutive Mono', monospace;
+  font-size: 20px;
+  font-weight: bolder;
+}
+/*========Materialize Sidebar grey out glitch fix*/
+.navbar-fixed{
+  z-index:998;
+}
+/*========Materialize Sidebar grey out glitch fix*/
+.button-collapse {
+  color: #ffffff;
+}
+footer.page-footer {
+  margin: 0;
+}
+
+/*Fade in CSS animation====================*/
+main {
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+/*Fade in CSS animation====================*/
