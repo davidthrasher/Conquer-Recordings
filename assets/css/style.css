@@ -16,7 +16,14 @@ h3 {
 #bio {
   color: white;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  /*font-family: 'Roboto', sans-serif;*/
+}
+#gear {
+  color: white;
+  text-align: left;
+  font-size: 15px;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 .mySlides {
   max-width: 100%;
