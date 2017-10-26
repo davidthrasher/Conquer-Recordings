@@ -36,13 +36,6 @@
         $('html, body').animate({scrollTop: lastElementTop}, 'slow'); //scrolls to the position found in last line
     });
 
-    $(".links-store").on('click', function(){
-        //jQuery function which triggers when developers link clicked
-        $("#store").css("display", "block");       //displays the previously hidden container class block
-        lastElementTop = $('#store').position().top - 150 ; //finds the position of the container class and assigns to variable
-        $('html, body').animate({scrollTop: lastElementTop}, 'slow'); //scrolls to the position found in last line
-    });
-
     $(".links-contact").on('click', function(){
         //jQuery function which triggers when developers link clicked
         $("#contact").css("display", "block");       //displays the previously hidden container class block
