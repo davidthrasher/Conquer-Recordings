@@ -1,26 +1,24 @@
-
 html {
-  background-color: #212121;
+  background-color: black;
 }
-h1 {
+h1,h2,h3,h4 {
   color: white;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Cutive Mono', monospace;
 }
-h3 {
+h5 {
   color: white;
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
+  text-align: left;
+  font-family: 'Cutive Mono', monospace;
 }
-
 #bio {
   color: white;
   text-align: center;
-  /*font-family: 'Roboto', sans-serif;*/
+  font-family: 'Roboto', sans-serif;
 }
 .design {
   color: white;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Cutive Mono', monospace;
 }
 #gear {
   color: white;
@@ -28,6 +26,7 @@ h3 {
   font-size: 15px;
   margin-left: 15%;
   margin-right: 15%;
+  font-family: 'Roboto', sans-serif;
 }
 .mySlides {
   max-width: 100%;
