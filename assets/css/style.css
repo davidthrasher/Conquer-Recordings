@@ -4,12 +4,12 @@ html {
 h1,h2,h3,h4,h5 {
   color: white;
   text-align: center;
-  font-family: 'Cutive Mono', monospace;
+  font-family: 'Roboto', sans-serif;
 }
  #follow{
   color: white;
   text-align: left;
-  font-family: 'Cutive Mono', monospace;
+  font-family: 'Roboto', sans-serif;
   font-size: 25px;
 }
 #bio {
@@ -19,7 +19,7 @@ h1,h2,h3,h4,h5 {
 }
 .design {
   color: white;
-  font-family: 'Cutive Mono', monospace;
+  font-family: 'Roboto', sans-serif;
 }
 #gear {
   color: white;
@@ -67,7 +67,7 @@ nav {
 }
 nav ul a {
   color: #ffffff;
-  font-family: 'Cutive Mono', monospace;
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
   font-weight: bolder;
   margin-top: 30px;
@@ -84,7 +84,7 @@ nav ul a:hover {
 }
 .side-nav {
   color: #ffffff;
-  font-family: 'Cutive Mono', monospace;
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
   font-weight: bolder;
 }
