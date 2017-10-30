@@ -13,7 +13,6 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="assets/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
   <link href="assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
-  <link href="https://fonts.googleapis.com/css?family=Cutive+Mono|Roboto" rel="stylesheet">
 </head>
 
 <body>
@@ -132,21 +131,40 @@
                 <hr>
                 <h5>Are you interested in recording with me and getting the sound that YOU want?
                   Please fill out the form and I will get back to you as soon as possible. </h5>
-                <div class="row">
-                  <form action="mailto:conquerrecordings@gmail.com" method="post" enctype="text/plain">
-                  Name:<br>
-                  <input type="text" name="name"><br>
-                  E-mail:<br>
-                  <input type="text" name="email"><br>
-                  Subject:<br>
-                  <input type="text" name="subject"><br>
-                  Message:<br>
-                  <textarea name="message" rows="10" cols="30"></textarea>
-                  <button class="btn waves-effect waves-light grey darken-4" type="submit">Submit
-                    <i class="material-icons right">send</i>
-                  </button>
-                  </form>
-                </div>
+
+                  <div class="row">
+                   <form class="col s12">
+                     <div class="row">
+                       <div class="input-field col s12">
+                         <input placeholder="Name" id="name" type="text" class="validate">
+                         <label for="name">Name</label>
+                       </div>
+                     </div>
+                     <div class="row">
+                       <div class="input-field col s12">
+                         <input placeholder="Email" id="email" type="email" class="validate">
+                         <label for="email">Email</label>
+                       </div>
+                     </div>
+                     <div class="row">
+                       <div class="input-field col s12">
+                         <input placeholder="Subject" id="subject" type="text" class="validate">
+                         <label for="subject">Subject</label>
+                       </div>
+                     </div>
+                     <div class="row">
+                        <div class="input-field col s12">
+                          <textarea placeholder="Message" id="message" class="materialize-textarea"></textarea>
+                          <label for="message">Message</label>
+                        </div>
+                      </div>
+                      <button class="btn waves-effect waves-light grey darken-4" type="submit" id="contactsubmit">Submit
+                        <i class="material-icons right">send</i>
+                      </button>
+                   </form>
+                 </div>
+                 <div id="thankyou"></div>
+              </div>
             </span>
           </div>
         </div>
@@ -182,8 +200,10 @@
 
 
   <!--  Scripts-->
+
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="assets/js/app.js"></script>
+  <script src="https://smtpjs.com/smtp.js"></script>
   <script src="assets/js/materialize.js"></script>
 
 

@@ -51,6 +51,37 @@
           setTimeout(carousel, 5000); // Change image every 5 seconds
       }
 
+      //Contact Form SMTP===========================//
+      $("#contactsubmit").on("click", function(event) {
+        event.preventDefault();
+
+        var name = $("#name").val();
+        var email = $("#email").val();
+        var subject = $("#subject").val();
+        var message = $("#message").val();
+        var body = "-Client Name: " + name + " -Client Email: " + email + " -Message: " + message;
+        console.log(body);
+
+        Email.send("contact@conquerrecordings.com",
+          "conquerrecordings@gmail.com",
+            subject,
+            body,
+          {token: "36d44dd0-9319-407d-85b0-62e5ea94cffa"});
+
+          //SMTP TOKEN 36d44dd0-9319-407d-85b0-62e5ea94cffa//
+
+        $("#thankyou").append("<p>Thank you for contacting Conquer Recordings. Chris will get back to you as soon as possible!</p>");
+
+        setTimeout(function(){
+          $('#thankyou').empty();
+          document.getElementById('name').value = "";
+          document.getElementById('email').value = "";
+          document.getElementById('subject').value = "";
+          document.getElementById('message').value = "";
+        }, 3000);
+      });
+
+
 
 
 
