@@ -59,11 +59,11 @@
         var email = $("#email").val();
         var subject = $("#subject").val();
         var message = $("#message").val();
-        var body = "-Client Name: " + name + " -Client Email: " + email + " -Message: " + message;
+        var body = "(Client Name): " + name + " (Client Email): " + email + " (Message): " + message;
         console.log(body);
 
         Email.send("contact@conquerrecordings.com",
-          "thrasher1332@hotmail.com",
+          "conquerrecordings@gmail.com",
             subject,
             body,
           {token: "36d44dd0-9319-407d-85b0-62e5ea94cffa"});
