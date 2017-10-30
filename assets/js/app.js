@@ -63,7 +63,7 @@
         console.log(body);
 
         Email.send("contact@conquerrecordings.com",
-          "conquerrecordings@gmail.com",
+          "thrasher1332@hotmail.com",
             subject,
             body,
           {token: "36d44dd0-9319-407d-85b0-62e5ea94cffa"});
