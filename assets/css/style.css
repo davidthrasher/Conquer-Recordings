@@ -6,6 +6,10 @@ h1,h2,h3,h4,h5 {
   text-align: center;
   font-family: 'Roboto', sans-serif;
 }
+.gearlogos {
+  max-width: 100%;
+  max-height: 100%;
+}
  #follow{
   color: white;
   text-align: left;
@@ -14,8 +18,32 @@ h1,h2,h3,h4,h5 {
 }
 #bio {
   color: white;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+#fullstorebutton {
+  text-decoration: underline;
+  color: white;
   text-align: center;
   font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  -webkit-filter: brightness(100%);
+}
+
+#fullstorebutton:hover {
+  -webkit-filter: brightness(25%);
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  transition: all .25s ease;
+}
+.abovephotos {
+  color: white;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
 }
 .design {
   color: white;
@@ -25,11 +53,15 @@ h1,h2,h3,h4,h5 {
   color: white;
   text-align: left;
   font-size: 15px;
-  margin-left: 15%;
+
   margin-right: 15%;
   font-family: 'Roboto', sans-serif;
 }
 .mySlides {
+  max-width: 100%;
+  max-height: 100%;
+}
+.aboutphotos {
   max-width: 100%;
   max-height: 100%;
 }
@@ -68,7 +100,7 @@ nav {
 nav ul a {
   color: #ffffff;
   font-family: 'Roboto', sans-serif;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: bolder;
   margin-top: 30px;
   margin-right: 20px;
