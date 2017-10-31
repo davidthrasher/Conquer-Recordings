@@ -32,6 +32,14 @@ h1,h2,h3,h4,h5 {
   font-size: 40px;
   -webkit-filter: brightness(100%);
 }
+#gearcat {
+  text-decoration: underline;
+  color: white;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+
+}
 
 #fullstorebutton:hover {
   -webkit-filter: brightness(25%);
