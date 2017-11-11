@@ -6,6 +6,9 @@ h1,h2,h3,h4,h5 {
   text-align: center;
   font-family: 'Roboto', sans-serif;
 }
+#home, #store {
+  margin-top: 75px;
+}
 .gearlogos {
   max-width: 100%;
   max-height: 100%;
@@ -70,6 +73,7 @@ h1,h2,h3,h4,h5 {
 .mySlides {
   max-width: 100%;
   max-height: 100%;
+  transition: opacity .5s ease-in;
 }
 .aboutphotos {
   max-width: 100%;
@@ -101,7 +105,7 @@ h1,h2,h3,h4,h5 {
   transition: all .25s ease;
 }
 nav {
-  height: 150px;
+  height: 125px;
 
 }
 .footersocial {
@@ -180,6 +184,21 @@ main {
   .gearlogos {
     max-width: 60%;
     max-height: 60%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .mySlides {
+    width: 75%;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+
+  .mySlides {
+    width: 70%;
     display: block;
     margin: 0 auto;
   }

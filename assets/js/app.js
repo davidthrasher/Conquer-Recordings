@@ -2,7 +2,6 @@
   $(function(){
     //Materialize Functionality=====================//
     $('.button-collapse').sideNav();
-    $('#push').pushpin({ top:$('#push').height() });
     $('#textarea1').trigger('autoresize');
 
 
