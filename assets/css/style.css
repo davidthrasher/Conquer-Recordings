@@ -104,6 +104,21 @@ h1,h2,h3,h4,h5 {
   -ms-transition: all .25s ease;
   transition: all .25s ease;
 }
+.landing {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: 0 auto;
+  -webkit-filter: brightness(100%);
+}
+.landing:hover {
+  -webkit-filter: brightness(75%);
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  transition: all .25s ease;
+}
 nav {
   height: 125px;
 
@@ -187,18 +202,18 @@ main {
     display: block;
     margin: 0 auto;
   }
-
-  .mySlides {
-    width: 75%;
-    display: block;
-    margin: 0 auto;
-  }
 }
 
 @media only screen and (min-width: 1024px) {
 
+  .landing {
+    width: 95%;
+    display: block;
+    margin: 0 auto;
+  }
+
   .mySlides {
-    width: 70%;
+    width: 85%;
     display: block;
     margin: 0 auto;
   }
